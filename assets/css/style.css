@@ -1,0 +1,73 @@
+html,
+body {
+	min-height: 100%;
+}
+
+body {
+	background: rgb(82, 16, 47);
+	background: linear-gradient(144deg, rgba(0,115,170, 1) 0%, rgba(0,142,208, 1) 100%);
+	font-family: Segoe UI, Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	text-align: center;
+}
+
+#container {
+	background: white;
+	box-shadow: 0 0 0 10px #0073AA;
+	margin: 5em auto;
+	max-width: 600px;
+	padding: 2em;
+}
+
+img {
+	display: block;
+	margin: auto;
+}
+
+.custom-logo-link img {
+	max-width: 200px;
+	height: auto;
+}
+
+h1 {
+	border-bottom: 4px solid #0073AA;
+	color: #0073AA;
+	font-size: 26px;
+	font-weight: normal;
+	margin: 20px 0 0.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	display: inline-block;
+}
+
+@media (min-width: 500px) {
+	h1 {
+		font-size: 36px;
+	}
+}
+
+@media (min-width: 768px) {
+	h1 {
+		font-size: 46px;
+	}
+}
+
+p {
+	margin: 0 0 20px;
+}
+
+.contacts {
+	text-align: left;
+	max-width: 240px;
+	margin: auto;
+}
+
+.contacts a {
+	margin-top: 10px;
+	display: block;
+	background-color: #0073AA;
+	padding: 5px 10px;
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+}
